@@ -24,8 +24,17 @@ With this modification on the pre-trained Xception model we have slightly outper
 Download DAiSEE dataset from their website: 
 https://iith.ac.in/~daisee-dataset/  
 This dataset contains 9068 video snippets and 2,723,882 frames.  
-We provide simple python scripts to train and evaluate the model.   
-Refer the following commands to use those scripts.
+We provide simple python scripts to train and evaluate the model.  
+
+To run the scripts using GPU follow the instructions to install tensorflow with GPU support here:  
+https://www.tensorflow.org/install/docker  
+
+After that run this command in the diectory where the given Dockerfile is located.
+    
+    docker build -t tfgpu:latest .
+    docker run --gpus all -u 1000 --rm --name tf -it -v </full-path/to/user-engagement-recognition/>:/tf tfgpu:latest bash
+    
+Now refer the following commands to run remaining scripts.
 
 #### Extract frames from DAiSEE videos
     
