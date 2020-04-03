@@ -48,7 +48,7 @@ This NumPy arrays will be used in the data input pipeline.
 
 #### Train model  
 This script requires pre-trained weights for Xception which can be downloaded from here:   
-[Weights for Pre-trained Xception model on ImageNet](https://storage.googleapis.com/tensorflow/keras-applications/xception/xception_weights_tf_dim_ordering_tf_kernels_notop.h5)  
+[Weights for pre-trained Xception model on ImageNet](https://storage.googleapis.com/tensorflow/keras-applications/xception/xception_weights_tf_dim_ordering_tf_kernels_notop.h5)  
     
     python train.py -i <weights dir> -n <filepath label dir> -o <directory to store trained model and logs>
     
