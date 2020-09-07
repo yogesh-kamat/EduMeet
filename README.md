@@ -1,4 +1,4 @@
-# User Engagement Recognition  
+# EduMeet
 
 In this work, we are presenting a new approach to solve the problem of user engagement recognition by using the concept of transfer learning, multi-task classification and depthwise separable convolutions.     
 
